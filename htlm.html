@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen de Opción Múltiple Mejorado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-container"></div>
+    <nav class="navbar">
+        <img src="logo_socio_lab-removebg-preview.png" alt="Logo">
+        <div>
+            <a href="#">Volver al inicio</a>
+            <img src="pngtree-user-icon-isolated-on-abstract-background-png-image_1824979-removebg-preview.png" alt="Foto de perfil">
+        </div>
+    </nav>
+
+    <div class="content">
+        <div class="tabs">
+            <button class="tab active" onclick="openTab(event, 'pdf')">PDF Descargable</button>
+            <button class="tab" onclick="openTab(event, 'examen')">Examen</button>
+        </div>
+
+        <div id="pdf" class="tab-content active">
+            <h2>Descargar PDF</h2>
+            <p>Haz clic en el botón de abajo para descargar el archivo PDF.</p>
+            <a href="Red and Black Geometric Stop The War Twitter Post.pdf" class="pdf-download" download>Descargar PDF</a>
+        </div>
+
+        <div id="examen" class="tab-content">
+            <h2>Examen de Opción Múltiple</h2>
+            <form id="examForm">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <div class="question">
+                    <p>1. ¿Cuál es la capital de Francia?</p>
+                    <div class="options">
+                        <label><input type="radio" name="q1" value="a" required> Londres</label>
+                        <label><input type="radio" name="q1" value="b"> Berlín</label>
+                        <label><input type="radio" name="q1" value="c"> París</label>
+                        <label><input type="radio" name="q1" value="d"> Madrid</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>2. ¿Cuál es el planeta más grande del sistema solar?</p>
+                    <div class="options">
+                        <label><input type="radio" name="q2" value="a" required> Marte</label>
+                        <label><input type="radio" name="q2" value="b"> Júpiter</label>
+                        <label><input type="radio" name="q2" value="c"> Saturno</label>
+                        <label><input type="radio" name="q2" value="d"> Neptuno</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>3. ¿Quién pintó "La noche estrellada"?</p>
+                    <div class="options">
+                        <label><input type="radio" name="q3" value="a" required> Pablo Picasso</label>
+                        <label><input type="radio" name="q3" value="b"> Leonardo da Vinci</label>
+                        <label><input type="radio" name="q3" value="c"> Vincent van Gogh</label>
+                        <label><input type="radio" name="q3" value="d"> Claude Monet</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>4. ¿Cuál es el elemento químico más abundante en el universo?</p>
+                    <div class="options">
+                        <label><input type="radio" name="q4" value="a" required> Oxígeno</label>
+                        <label><input type="radio" name="q4" value="b"> Carbono</label>
+                        <label><input type="radio" name="q4" value="c"> Hidrógeno</label>
+                        <label><input type="radio" name="q4" value="d"> Helio</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>5. ¿En qué año se fundó la ONU?</p>
+                    <div class="options">
+                        <label><input type="radio" name="q5" value="a" required> 1945</label>
+                        <label><input type="radio" name="q5" value="b"> 1939</label>
+                        <label><input type="radio" name="q5" value="c"> 1950</label>
+                        <label><input type="radio" name="q5" value="d"> 1955</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>6. ¿Cuál es el río más largo del mundo?</p>
+                    <div class="options">
+                        <label><input type="radio" name="q6" value="a" required> Amazonas</label>
+                        <label><input type="radio" name="q6" value="b"> Nilo</label>
+                        <label><input type="radio" name="q6" value="c"> Yangtsé</label>
+                        <label><input type="radio" name="q6" value="d"> Misisipi</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>7. ¿Quién escribió "Cien años de soledad"?</p>
+                    <div class="options">
+                        <label><input type="radio" name="q7" value="a" required> Mario Vargas Llosa</label>
+                        <label><input type="radio" name="q7" value="b"> Gabriel García Márquez</label>
+                        <label><input type="radio" name="q7" value="c"> Julio Cortázar</label>
+                        <label><input type="radio" name="q7" value="d"> Isabel Allende</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>8. ¿Cuál es el hueso más largo del cuerpo humano?</p>
+                    <div class="options">
+                        <label><input type="radio" name="q8" value="a" required> Fémur</label>
+                        <label><input type="radio" name="q8" value="b"> Húmero</label>
+                        <label><input type="radio" name="q8" value="c"> Tibia</label>
+                        <label><input type="radio" name="q8" value="d"> Columna vertebral</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>9. ¿En qué año se llevó a cabo la Revolución Francesa?</p>
+                    <div class="options">
+                        <label><input type="radio" name="q9" value="a" required> 1789</label>
+                        <label><input type="radio" name="q9" value="b"> 1776</label>
+                        <label><input type="radio" name="q9" value="c"> 1804</label>
+                        <label><input type="radio" name="q9" value="d"> 1815</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>10. ¿Cuál es el metal más abundante en la corteza terrestre?</p>
+                    <div class="options">
+                        <label><input type="radio" name="q10" value="a" required> Hierro</label>
+                        <label><input type="radio" name="q10" value="b"> Aluminio</label>
+                        <label><input type="radio" name="q10" value="c"> Cobre</label>
+                        <label><input type="radio" name="q10" value="d"> Oro</label>
+                    </div>
+                </div>
+
+                <button type="submit">Enviar Examen</button>
+            </form>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
