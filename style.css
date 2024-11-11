@@ -6,7 +6,7 @@ body, html {
     font-family: 'Poppins', sans-serif;
     background-color: #f3e5f5;
     min-height: 100vh;
-    background-image:url(img/fondo-soldado-dibujado-mano-guerra_23-2149441559.jpg) ;
+   background-image:url(img/fondo.png);
 }
 .bg {
     position: absolute;

@@ -16,16 +16,18 @@ function openTab(evt, tabName) {
 document.addEventListener('DOMContentLoaded', function() {
 
     const correctAnswers = {
-        q1: "c", // El asesinato del archiduque Francisco Fernando
-        q2: "b", // Aliados: Francia, Reino Unido, Rusia, EE.UU.; Potencias Centrales: Alemania, Austria-Hungría, Imperio Otomano, Bulgaria
-        q3: "a", // Nacionalismo, militarismo, imperialismo y alianzas
-        q4: "c", // Guerra de trincheras
-        q5: "a", // Tratado de Versalles; sancionó duramente a Alemania
-        q6: "b", // Crisis económica y devastación en muchos países europeos
-        q7: "c", // Porque generaron resentimiento en Alemania, facilitando el ascenso del nazismo
-        q8: "c", // Alemania, Italia y Japón
-        q9: "a", // Inició la Guerra Fría
-        q10: "c" // La ONU
+        q1: "a", // Consulta Popular
+        q2: "c", // Iniciativa Legislativa Popular
+        q3: "b", //  Expresar opiniones sobre decisiones locales o nacionales
+        q4: "c", //  Revocatoria del Mandato
+        q5: "b", // La ciudadanía discute temas de interés con las autoridades
+        q6: "a", // Iniciativa Legislativa Popular.
+        q7: "a", // Revocatoria del Mandato.
+        q8: "b", // Consulta Popular
+        q9: "a", // Presupuestos Participativos.
+        q10: "a", //  Voto.
+          
+        
         
     };
 
