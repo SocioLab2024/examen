@@ -14,19 +14,19 @@ function openTab(evt, tabName) {
 
 // Mostrar por defecto la pestaña "pdf" cuando se cargue la página
 document.addEventListener('DOMContentLoaded', function() {
-    document.getElementById("pdf").style.display = "block";
 
     const correctAnswers = {
-        q1: "c", // París
-        q2: "b", // Júpiter
-        q3: "c", // Vincent van Gogh
-        q4: "c", // Hidrógeno
-        q5: "a", // 1945
-        q6: "a", // Amazonas
-        q7: "b", // Gabriel García Márquez
-        q8: "a", // Fémur
-        q9: "a", // 1789
-        q10: "b" // Aluminio
+        q1: "c", // El asesinato del archiduque Francisco Fernando
+        q2: "b", // Aliados: Francia, Reino Unido, Rusia, EE.UU.; Potencias Centrales: Alemania, Austria-Hungría, Imperio Otomano, Bulgaria
+        q3: "a", // Nacionalismo, militarismo, imperialismo y alianzas
+        q4: "c", // Guerra de trincheras
+        q5: "a", // Tratado de Versalles; sancionó duramente a Alemania
+        q6: "b", // Crisis económica y devastación en muchos países europeos
+        q7: "c", // Porque generaron resentimiento en Alemania, facilitando el ascenso del nazismo
+        q8: "c", // Alemania, Italia y Japón
+        q9: "a", // Inició la Guerra Fría
+        q10: "c" // La ONU
+        
     };
 
     document.getElementById("examForm").addEventListener("submit", function(e) {
